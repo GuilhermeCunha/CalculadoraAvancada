@@ -10,6 +10,12 @@ package calculadora_avancada;
  * @author aluno
  */
 public class Divisao {
+    /**
+     * Este método realiza a divisãp entre dois números
+     * @param a
+     * @param b
+     * @return A divisão entre dois números
+     */
     public static double dividir(double a, double b){
         double result = 0.0;
         try{

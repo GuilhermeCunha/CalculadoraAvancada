@@ -10,6 +10,12 @@ package calculadora_avancada;
  * @author aluno
  */
 public class Adicao {
+    /**
+     * Este método realiza a soma entre dois números
+     * @param a
+     * @param b
+     * @return A soma entre dois números
+     */
     public static double somar(double a, double b){
         double result = 0.0;
         try{

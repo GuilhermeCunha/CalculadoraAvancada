@@ -10,6 +10,12 @@ package calculadora_avancada;
  * @author aluno
  */
 public class Multiplicacao {
+    /**
+     * Este método realiza a multiplicação entre dois números
+     * @param a
+     * @param b
+     * @return A multiplicação entre dois números
+     */
     public static double multiplicar(double a, double b){
         double result = 0.0;
         try{

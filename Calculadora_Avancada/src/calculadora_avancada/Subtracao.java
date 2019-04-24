@@ -10,6 +10,12 @@ package calculadora_avancada;
  * @author aluno
  */
 public class Subtracao {
+    /**
+     * Este método realiza a subtração entre dois números
+     * @param a
+     * @param b
+     * @return A subtração entre dois números
+     */
    public static double subtrair(double a, double b){
         double result = 0.0;
         try{
