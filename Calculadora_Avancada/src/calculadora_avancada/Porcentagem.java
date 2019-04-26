@@ -12,6 +12,9 @@ public class Porcentagem {
         double result = 0.0;
         
         try{
+            if(b==0){
+                return 0;
+            }
             result = (a*(b/100));
         }catch(Exception e){
             System.out.println("Algum erro ocorreu!");

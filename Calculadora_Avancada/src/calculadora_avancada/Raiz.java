@@ -5,6 +5,9 @@
  */
 package calculadora_avancada;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Raiz {
     /**
      * Este método calcula a raiz de um número
@@ -15,7 +18,15 @@ public class Raiz {
     public static double raiz(double a, double b){
         double result = 0.0;
         try{
-            result = Math.pow(a,b);
+            if ( a < 0 ){
+                throw new Exception("NumeroNegativo");
+            } else if (a == 1){
+                result = a;
+            } else    if (b == 2){
+                result = Math.sqrt(a);
+            } else    if (b == 3){
+                result = Math.cbrt (a);
+            }
         }catch(Exception e){
             System.out.println("Algum erro ocorreu!");
         }
