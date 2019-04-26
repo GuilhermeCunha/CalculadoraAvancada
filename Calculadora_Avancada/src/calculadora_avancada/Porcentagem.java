@@ -2,6 +2,12 @@
 package calculadora_avancada;
 
 public class Porcentagem {
+    /**
+     * Este método calcula uma certa porcentagem de um número
+     * @param a
+     * @param b
+     * @return A porcentagem de um número
+     */
      public static double porcentagem(double a, double b){
         double result = 0.0;
         

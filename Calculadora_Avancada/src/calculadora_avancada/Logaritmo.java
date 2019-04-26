@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package log1;
+package calculadora_avancada;
 
 /**
  *
  * @author ANGELO
  */
 public class Logaritmo {
-     private double result;
-
-    public double getResult() {
+    
+    /**
+     * Este método calcula o logaritmo de um número
+     * @param dnumeros1
+     * @param dnumeros2
+     * @return O logaritmo de um número
+     */
+    public static double logaritmo(double dnumeros1, double dnumeros2){
+        double result=0;
+        try{
+            result = Math.log10(dnumeros2)/Math.log10(dnumeros1);
+        }catch(Exception e){
+            System.out.println("Algum erro ocorreu!");
+        }
         return result;
-    }
-
-    public void setResult(double result) {
-        this.result = result;
-    }
-    public double logaritmo(double dnumeros1, double dnumeros2){ 
-        
-            this.result=Math.log10(dnumeros2)/Math.log10(dnumeros1);
-            return result;
-       
-        
     }
 }

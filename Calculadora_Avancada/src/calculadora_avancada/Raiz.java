@@ -5,11 +5,13 @@
  */
 package calculadora_avancada;
 
-/**
- *
- * @author aluno
- */
 public class Raiz {
+    /**
+     * Este método calcula a raiz de um número
+     * @param a
+     * @param b
+     * @return A raiz de um número
+     */
     public static double raiz(double a, double b){
         double result = 0.0;
         try{

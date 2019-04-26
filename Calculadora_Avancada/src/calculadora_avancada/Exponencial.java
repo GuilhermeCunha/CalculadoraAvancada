@@ -9,6 +9,12 @@
  * @author aluno
  */
 public class Exponencial {
+    /**
+     * Este método calcula o exponencial de um número
+     * @param dnumeros1
+     * @param dnumeros2
+     * @return O exponencialde um número
+     */
     public static double exponencial(double dnumeros1, double dnumeros2){
         int i=1;
         double result = 1;
@@ -19,10 +25,9 @@ public class Exponencial {
             i++;
             }
         }catch(Exception e){
-            System.out.println("Segundo n�mero nulo!");
+            System.out.println("Segundo n�mero nulo!");
             result = 1;
         }
-        return result;
-        }
+        return result; 
     }
 }
